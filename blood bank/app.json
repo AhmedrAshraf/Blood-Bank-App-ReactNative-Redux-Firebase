@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "blood bank",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "bloodbank",
+    "sdkVersion": "34.0.0",
+    "android": {
+      "package": "com.bloodbankapp.myapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.bloodbankapp.myapp"
+    },
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
